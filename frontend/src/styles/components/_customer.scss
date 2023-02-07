@@ -1,7 +1,15 @@
 .customer{
 	&-view {
+		margin-top: 2rem;
+		position: relative;
 		h1, h2 {
 			margin-block: 1rem;
+		}
+
+		.inset {
+			position: absolute;
+			inset: 0;
+			min-height: 200px;
 		}
 	}
 

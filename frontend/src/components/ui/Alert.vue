@@ -7,10 +7,9 @@ const icon = computed(() => {
 	switch(props.type) {
 		case 'error':
 			return 'error';
-			break;
 
 		case 'success':
-			break;
+			return 'done';
 	}
 });
 </script>

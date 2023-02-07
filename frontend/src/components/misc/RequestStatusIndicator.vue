@@ -6,7 +6,7 @@ defineProps(['status']);
 </script>
 
 <template>
-	<div style="min-height: 100px">
+	<div>
 		<TransitionGroup>
 			<div v-if="status === RequestStatus.LOADING">
 				<Spinner show></Spinner>
