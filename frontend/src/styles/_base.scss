@@ -1,24 +1,22 @@
-/* color palette from <https://github.com/vuejs/theme> */
 :root {
-  --clr-white: #ffffff;
-  --clr-white-soft: #f8f8f8;
-  --clr-white-mute: #f2f2f2;
+  --color-white: #ffffff;
+  --color-white-soft: #f8f8f8;
+  --color-white-mute: #f2f2f2;
 
-  --clr-black: #181818;
-  --clr-black-soft: #222222;
-  --clr-black-mute: #282828;
+  --color-black: #181818;
+  --color-black-soft: #222222;
+  --color-black-mute: #282828;
 
-	--clr-yellow: #ffc351;
+	--color-yellow: #ffc351;
 }
 
-/* semantic color variables for this project */
 :root {
-  --color-background: var(--clr-white);
-  --color-background-soft: var(--clr-white-soft);
-  --color-background-mute: var(--clr-white-mute);
+  --color-background: var(--color-white);
+  --color-background-soft: var(--color-white-soft);
+  --color-background-mute: var(--color-white-mute);
 
-  --color-heading: var(--clr-black-mute);
-  --color-text: var(--clr-black-mute);
+  --color-heading: var(--color-black-mute);
+  --color-text: var(--color-black-mute);
 
   --section-gap: 160px;
 	--container-width: 1200px;
@@ -51,6 +49,6 @@ a:not(:has(img)) {
 	border-radius: 0.2rem;
 
 	&:hover {
-		background-color: var(--clr-yellow);
+		background-color: var(--color-yellow);
 	}
 }
