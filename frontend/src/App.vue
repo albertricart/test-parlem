@@ -1,11 +1,10 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+import PageHeader from '@/components/PageHeader.vue';
 </script>
 
 <template>
-  <header>
-    <img alt="Parlem logo" class="logo" src="@/assets/logo.svg" width="120" height="35" />
-  </header>
-
+  <PageHeader/>
+  
   <RouterView/>
 </template>

@@ -1,0 +1,12 @@
+.page-header {
+	padding: 2rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: var(--color-background-mute);
+
+	&__nav {
+		display: flex;
+		column-gap: 1rem;
+	}
+}
