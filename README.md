@@ -34,6 +34,11 @@ Instal·larem les dependències de Vue
 docker compose run --rm node npm i
 ```
 
+Finalment, arrancarem el contenidor de node en concret
+```
+docker compose up node -d
+```
+
 &nbsp;
 
 ## URLs
