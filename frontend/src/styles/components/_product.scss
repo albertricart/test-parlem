@@ -1,0 +1,23 @@
+.product-item {
+	background-color: var(--color-background-mute);
+	border-radius: 12px;
+	padding: 1rem;
+
+	&__type {
+		font-size: 0.9rem;
+	}
+
+	&__name {
+		font-size: 1.2rem;
+		color: var(--color-yellow);
+		font-weight: 700;
+		margin-bottom: 2rem;
+	}
+
+	&__sold, &__terminal {
+		display: flex;
+		align-items: center;
+		column-gap: 0.3rem;
+		font-weight: 500;
+	}
+}

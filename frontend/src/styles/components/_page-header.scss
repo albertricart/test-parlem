@@ -8,5 +8,9 @@
 	&__nav {
 		display: flex;
 		column-gap: 1rem;
+		
+		@media (max-width: 768px) {
+			display: none;
+		}
 	}
 }

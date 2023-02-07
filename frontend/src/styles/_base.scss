@@ -7,8 +7,10 @@
   --color-black-soft: #222222;
   --color-black-mute: #282828;
 
-	--color-yellow: #ffc351;
-	--color-lime: #92C327;
+  --color-yellow: #ffc351;
+  --color-lime: #92C327;
+  
+  --hsl-red: 0, 100%, 40%;
 }
 
 :root {
@@ -16,11 +18,10 @@
   --color-background-soft: var(--color-white-soft);
   --color-background-mute: var(--color-white-mute);
 
-  --color-heading: var(--color-black-mute);
+  --color-heading: var(--color-black-soft);
   --color-text: var(--color-black-mute);
 
-  --section-gap: 160px;
-	--container-width: 1200px;
+  --container-width: 1200px;
 }
 
 body {
@@ -31,26 +32,41 @@ body {
   line-height: 1.6;
   font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   font-size: 15px;
+  font-weight: 500;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 .container {
-	max-width: var(--container-width);
-	margin-inline: auto;
+  max-width: var(--container-width);
+  margin-inline: auto;
   padding: 1rem;
 }
 
 a:not(:has(img)) {
-	display: inline-block;
-	text-decoration: none;
-	color: inherit;
-	transition: background-color 200ms ease;
-	padding: 0.1rem 0.2rem;
-	border-radius: 0.2rem;
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  transition: background-color 200ms ease;
+  padding: 0.1rem 0.2rem;
+  border-radius: 0.2rem;
 
-	&:hover {
-		background-color: var(--color-yellow);
-	}
+  &:hover {
+    background-color: var(--color-yellow);
+  }
+}
+
+h1,
+h2,
+h3 {
+  color: var(--color-heading);
+}
+
+h1 {
+  font-size: 2.2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
 }

@@ -1,0 +1,11 @@
+.alert {
+	padding: 1rem;
+	background-color: hsl(var(--hsl-red), 0.15);
+	display: flex;
+	border-radius: 8px;
+	column-gap: 0.5rem;
+
+	&--error {
+		color: hsl(var(--hsl-red));
+	}
+}
