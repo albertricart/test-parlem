@@ -1,6 +1,7 @@
 # Index
 - [Index](#index)
   - [Instruccions](#instruccions)
+  - [URLs](#urls)
   - [Diagrama backend](#diagrama-backend)
 
 &nbsp;
@@ -32,6 +33,14 @@ Instal·larem les dependències de Vue
 ```
 docker compose run --rm node npm i
 ```
+
+&nbsp;
+
+## URLs
+Tenim accés a les següents urls:
+- [Vue (localhost:80)](http://localhost/customers/1)
+- [Laravel (localhost:8000)](http://localhost:8000)
+- [phpmyadmin (localhost:8080)](http://localhost:8080)
 
 &nbsp;
 
