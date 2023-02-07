@@ -8,6 +8,7 @@
   --color-black-mute: #282828;
 
 	--color-yellow: #ffc351;
+	--color-lime: #92C327;
 }
 
 :root {
@@ -38,6 +39,7 @@ body {
 .container {
 	max-width: var(--container-width);
 	margin-inline: auto;
+  padding: 1rem;
 }
 
 a:not(:has(img)) {
